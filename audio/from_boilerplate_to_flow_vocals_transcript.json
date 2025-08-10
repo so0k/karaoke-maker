@@ -1,0 +1,2166 @@
+{
+  "id": "fb312dfb-fc28-44ce-9410-81e995624099",
+  "audio_duration": 210,
+  "words": [
+    {
+      "text": "HCL",
+      "start": 10560,
+      "end": 11360,
+      "confidence": 0.80322266
+    },
+    {
+      "text": "in",
+      "start": 11360,
+      "end": 11600,
+      "confidence": 0.91308594
+    },
+    {
+      "text": "an",
+      "start": 11600,
+      "end": 11800,
+      "confidence": 0.6225586
+    },
+    {
+      "text": "endless",
+      "start": 11800,
+      "end": 12280,
+      "confidence": 0.86743164
+    },
+    {
+      "text": "lines",
+      "start": 12280,
+      "end": 12720,
+      "confidence": 0.8779297
+    },
+    {
+      "text": "Copy",
+      "start": 12720,
+      "end": 13080,
+      "confidence": 0.99088544
+    },
+    {
+      "text": "paste",
+      "start": 13080,
+      "end": 13400,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "blocks",
+      "start": 13400,
+      "end": 13720,
+      "confidence": 0.9707031
+    },
+    {
+      "text": "tangled",
+      "start": 13720,
+      "end": 14080,
+      "confidence": 0.89957684
+    },
+    {
+      "text": "up",
+      "start": 14080,
+      "end": 14320,
+      "confidence": 0.9667969
+    },
+    {
+      "text": "in",
+      "start": 14320,
+      "end": 14600,
+      "confidence": 0.99121094
+    },
+    {
+      "text": "confines",
+      "start": 14600,
+      "end": 15280,
+      "confidence": 0.9987793
+    },
+    {
+      "text": "Terraform",
+      "start": 15520,
+      "end": 16279,
+      "confidence": 0.9147949
+    },
+    {
+      "text": "file",
+      "start": 16279,
+      "end": 16680,
+      "confidence": 0.63256836
+    },
+    {
+      "text": "stacked",
+      "start": 16680,
+      "end": 17080,
+      "confidence": 0.99088544
+    },
+    {
+      "text": "high",
+      "start": 17080,
+      "end": 17240,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "in",
+      "start": 17240,
+      "end": 17400,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "the",
+      "start": 17400,
+      "end": 17520,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "night",
+      "start": 17520,
+      "end": 17720,
+      "confidence": 0.71728516
+    },
+    {
+      "text": "hoping",
+      "start": 17720,
+      "end": 18160,
+      "confidence": 0.97314453
+    },
+    {
+      "text": "a",
+      "start": 18160,
+      "end": 18320,
+      "confidence": 0.50634766
+    },
+    {
+      "text": "stray",
+      "start": 18320,
+      "end": 18640,
+      "confidence": 0.8210449
+    },
+    {
+      "text": "bracket",
+      "start": 18640,
+      "end": 19040,
+      "confidence": 0.8643799
+    },
+    {
+      "text": "won't",
+      "start": 19040,
+      "end": 19200,
+      "confidence": 0.9868164
+    },
+    {
+      "text": "ruin",
+      "start": 19200,
+      "end": 19440,
+      "confidence": 0.9628906
+    },
+    {
+      "text": "our",
+      "start": 19560,
+      "end": 19720,
+      "confidence": 0.8129883
+    },
+    {
+      "text": "flight",
+      "start": 19720,
+      "end": 20120,
+      "confidence": 0.9707031
+    },
+    {
+      "text": "but",
+      "start": 20120,
+      "end": 20400,
+      "confidence": 0.99365234
+    },
+    {
+      "text": "then",
+      "start": 20400,
+      "end": 20640,
+      "confidence": 0.5859375
+    },
+    {
+      "text": "came",
+      "start": 20640,
+      "end": 20880,
+      "confidence": 0.99121094
+    },
+    {
+      "text": "the",
+      "start": 20880,
+      "end": 21040,
+      "confidence": 0.6152344
+    },
+    {
+      "text": "shift",
+      "start": 21040,
+      "end": 21320,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "A",
+      "start": 21320,
+      "end": 21560,
+      "confidence": 0.94384766
+    },
+    {
+      "text": "cleaner",
+      "start": 21560,
+      "end": 22040,
+      "confidence": 0.9641927
+    },
+    {
+      "text": "design",
+      "start": 22040,
+      "end": 22320,
+      "confidence": 0.9970703
+    },
+    {
+      "text": "object-oriented",
+      "start": 22800,
+      "end": 23240,
+      "confidence": 0.91674805
+    },
+    {
+      "text": "reusable",
+      "start": 23920,
+      "end": 24120,
+      "confidence": 0.74072266
+    },
+    {
+      "text": "divine",
+      "start": 24560,
+      "end": 25200,
+      "confidence": 0.92211914
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 25360,
+      "end": 25960,
+      "confidence": 0.8654785
+    },
+    {
+      "text": "showed",
+      "start": 26680,
+      "end": 27200,
+      "confidence": 0.5029297
+    },
+    {
+      "text": "the",
+      "start": 27200,
+      "end": 27360,
+      "confidence": 0.8071289
+    },
+    {
+      "text": "way",
+      "start": 27360,
+      "end": 27680,
+      "confidence": 0.99072266
+    },
+    {
+      "text": "now",
+      "start": 28150,
+      "end": 28310,
+      "confidence": 0.9501953
+    },
+    {
+      "text": "we",
+      "start": 28310,
+      "end": 28510,
+      "confidence": 0.99072266
+    },
+    {
+      "text": "build",
+      "start": 28510,
+      "end": 28710,
+      "confidence": 0.98828125
+    },
+    {
+      "text": "with",
+      "start": 28710,
+      "end": 28910,
+      "confidence": 0.9970703
+    },
+    {
+      "text": "ease",
+      "start": 28910,
+      "end": 29310,
+      "confidence": 0.9230957
+    },
+    {
+      "text": "day",
+      "start": 29310,
+      "end": 29630,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "by",
+      "start": 29630,
+      "end": 29950,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "day",
+      "start": 29950,
+      "end": 30310,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "from",
+      "start": 30390,
+      "end": 30710,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "boilerplate",
+      "start": 30710,
+      "end": 31390,
+      "confidence": 0.9517578
+    },
+    {
+      "text": "to",
+      "start": 31390,
+      "end": 31550,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "flow",
+      "start": 31550,
+      "end": 31910,
+      "confidence": 0.986084
+    },
+    {
+      "text": "We",
+      "start": 33030,
+      "end": 33350,
+      "confidence": 0.33276367
+    },
+    {
+      "text": "let",
+      "start": 33350,
+      "end": 33550,
+      "confidence": 0.36816406
+    },
+    {
+      "text": "the",
+      "start": 33550,
+      "end": 33710,
+      "confidence": 0.80566406
+    },
+    {
+      "text": "constructs",
+      "start": 33710,
+      "end": 34230,
+      "confidence": 0.75146484
+    },
+    {
+      "text": "grow",
+      "start": 34230,
+      "end": 34710,
+      "confidence": 0.7705078
+    },
+    {
+      "text": "taking",
+      "start": 37110,
+      "end": 37670,
+      "confidence": 0.5692444
+    },
+    {
+      "text": "control",
+      "start": 37670,
+      "end": 37910,
+      "confidence": 0.96484375
+    },
+    {
+      "text": "cloud",
+      "start": 38150,
+      "end": 38670,
+      "confidence": 0.7444661
+    },
+    {
+      "text": "services",
+      "start": 38670,
+      "end": 38950,
+      "confidence": 0.9658203
+    },
+    {
+      "text": "sculpted",
+      "start": 39190,
+      "end": 40110,
+      "confidence": 0.9633789
+    },
+    {
+      "text": "as",
+      "start": 40110,
+      "end": 40430,
+      "confidence": 0.99316406
+    },
+    {
+      "text": "gold",
+      "start": 40430,
+      "end": 40790,
+      "confidence": 0.91748047
+    },
+    {
+      "text": "more",
+      "start": 41110,
+      "end": 41550,
+      "confidence": 0.83951825
+    },
+    {
+      "text": "modules",
+      "start": 41550,
+      "end": 41990,
+      "confidence": 0.7076823
+    },
+    {
+      "text": "lost",
+      "start": 41990,
+      "end": 42310,
+      "confidence": 0.93310547
+    },
+    {
+      "text": "in",
+      "start": 42390,
+      "end": 42750,
+      "confidence": 0.9428711
+    },
+    {
+      "text": "the",
+      "start": 42750,
+      "end": 43030,
+      "confidence": 0.9194336
+    },
+    {
+      "text": "haze",
+      "start": 43030,
+      "end": 43590,
+      "confidence": 0.94628906
+    },
+    {
+      "text": "Patterns",
+      "start": 43750,
+      "end": 44350,
+      "confidence": 0.69645184
+    },
+    {
+      "text": "we",
+      "start": 44350,
+      "end": 44510,
+      "confidence": 0.984375
+    },
+    {
+      "text": "trust",
+      "start": 44510,
+      "end": 44870,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "in",
+      "start": 44870,
+      "end": 45070,
+      "confidence": 0.6455078
+    },
+    {
+      "text": "clear",
+      "start": 45070,
+      "end": 45350,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "arrays",
+      "start": 45350,
+      "end": 46070,
+      "confidence": 0.8544922
+    },
+    {
+      "text": "with",
+      "start": 46230,
+      "end": 46510,
+      "confidence": 0.40454102
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 46510,
+      "end": 46910,
+      "confidence": 0.55737305
+    },
+    {
+      "text": "rise",
+      "start": 47550,
+      "end": 48230,
+      "confidence": 0.53533936
+    },
+    {
+      "text": "Unlocking",
+      "start": 49030,
+      "end": 49710,
+      "confidence": 0.9693359
+    },
+    {
+      "text": "dev",
+      "start": 49710,
+      "end": 49990,
+      "confidence": 0.56103516
+    },
+    {
+      "text": "experience",
+      "start": 49990,
+      "end": 50390,
+      "confidence": 1.0
+    },
+    {
+      "text": "to",
+      "start": 50550,
+      "end": 50830,
+      "confidence": 0.98779297
+    },
+    {
+      "text": "the",
+      "start": 50830,
+      "end": 50990,
+      "confidence": 0.9897461
+    },
+    {
+      "text": "skies",
+      "start": 50990,
+      "end": 51430,
+      "confidence": 0.99438477
+    },
+    {
+      "text": "no",
+      "start": 51590,
+      "end": 51870,
+      "confidence": 0.89404297
+    },
+    {
+      "text": "more",
+      "start": 51870,
+      "end": 52070,
+      "confidence": 0.62841797
+    },
+    {
+      "text": "spinning",
+      "start": 52070,
+      "end": 52510,
+      "confidence": 0.9741211
+    },
+    {
+      "text": "wheels",
+      "start": 52510,
+      "end": 53030,
+      "confidence": 0.96643066
+    },
+    {
+      "text": "in",
+      "start": 53350,
+      "end": 53710,
+      "confidence": 0.9003906
+    },
+    {
+      "text": "module",
+      "start": 53710,
+      "end": 54190,
+      "confidence": 0.99886066
+    },
+    {
+      "text": "hell",
+      "start": 54190,
+      "end": 54550,
+      "confidence": 0.8190918
+    },
+    {
+      "text": "Just",
+      "start": 54550,
+      "end": 54790,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "high",
+      "start": 54790,
+      "end": 55030,
+      "confidence": 0.70458984
+    },
+    {
+      "text": "level",
+      "start": 55030,
+      "end": 55350,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "constructs",
+      "start": 55350,
+      "end": 56110,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "that",
+      "start": 56110,
+      "end": 56270,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "work",
+      "start": 56270,
+      "end": 56550,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "so",
+      "start": 56550,
+      "end": 56830,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "well",
+      "start": 56830,
+      "end": 57070,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "Define",
+      "start": 57070,
+      "end": 57670,
+      "confidence": 0.53271484
+    },
+    {
+      "text": "once",
+      "start": 57670,
+      "end": 58150,
+      "confidence": 0.73876953
+    },
+    {
+      "text": "reuse",
+      "start": 58540,
+      "end": 58980,
+      "confidence": 0.9321289
+    },
+    {
+      "text": "across",
+      "start": 58980,
+      "end": 59220,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "the",
+      "start": 59220,
+      "end": 59500,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "land",
+      "start": 59500,
+      "end": 59820,
+      "confidence": 0.9428711
+    },
+    {
+      "text": "Infrastructure",
+      "start": 59900,
+      "end": 60580,
+      "confidence": 0.9669922
+    },
+    {
+      "text": "built",
+      "start": 60580,
+      "end": 60940,
+      "confidence": 0.7815755
+    },
+    {
+      "text": "with",
+      "start": 60940,
+      "end": 61140,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "a",
+      "start": 61140,
+      "end": 61300,
+      "confidence": 0.5126953
+    },
+    {
+      "text": "guiding",
+      "start": 61300,
+      "end": 61660,
+      "confidence": 0.96777344
+    },
+    {
+      "text": "hand",
+      "start": 61660,
+      "end": 61980,
+      "confidence": 0.99316406
+    },
+    {
+      "text": "Lambda",
+      "start": 62140,
+      "end": 62620,
+      "confidence": 0.99523926
+    },
+    {
+      "text": "VPCs",
+      "start": 62620,
+      "end": 63380,
+      "confidence": 0.8501
+    },
+    {
+      "text": "scaling",
+      "start": 63380,
+      "end": 63900,
+      "confidence": 0.8922526
+    },
+    {
+      "text": "in",
+      "start": 63900,
+      "end": 64100,
+      "confidence": 0.796875
+    },
+    {
+      "text": "a",
+      "start": 64100,
+      "end": 64260,
+      "confidence": 0.8876953
+    },
+    {
+      "text": "breeze",
+      "start": 64260,
+      "end": 64820,
+      "confidence": 0.9881592
+    },
+    {
+      "text": "Patterns",
+      "start": 64820,
+      "end": 65140,
+      "confidence": 0.46484375
+    },
+    {
+      "text": "so",
+      "start": 65140,
+      "end": 65460,
+      "confidence": 0.61035156
+    },
+    {
+      "text": "clean",
+      "start": 65460,
+      "end": 65900,
+      "confidence": 0.8305664
+    },
+    {
+      "text": "like",
+      "start": 65900,
+      "end": 66220,
+      "confidence": 0.96191406
+    },
+    {
+      "text": "CDKTF",
+      "start": 67340,
+      "end": 68420,
+      "confidence": 0.8598633
+    },
+    {
+      "text": "brings",
+      "start": 68420,
+      "end": 68780,
+      "confidence": 0.9963379
+    },
+    {
+      "text": "the",
+      "start": 68780,
+      "end": 68900,
+      "confidence": 0.9667969
+    },
+    {
+      "text": "best",
+      "start": 68900,
+      "end": 69060,
+      "confidence": 1.0
+    },
+    {
+      "text": "of",
+      "start": 69060,
+      "end": 69220,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "both",
+      "start": 69220,
+      "end": 69420,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "worlds",
+      "start": 69420,
+      "end": 69780,
+      "confidence": 0.9621582
+    },
+    {
+      "text": "Terraform",
+      "start": 69780,
+      "end": 70380,
+      "confidence": 0.9506836
+    },
+    {
+      "text": "ecosystem",
+      "start": 70380,
+      "end": 71180,
+      "confidence": 0.9673665
+    },
+    {
+      "text": "with",
+      "start": 71180,
+      "end": 71420,
+      "confidence": 0.9873047
+    },
+    {
+      "text": "OOP",
+      "start": 71420,
+      "end": 71940,
+      "confidence": 0.61588544
+    },
+    {
+      "text": "unfurled",
+      "start": 71940,
+      "end": 72460,
+      "confidence": 0.65686035
+    },
+    {
+      "text": "code",
+      "start": 72540,
+      "end": 73020,
+      "confidence": 0.81347656
+    },
+    {
+      "text": "in",
+      "start": 73020,
+      "end": 73100,
+      "confidence": 0.63427734
+    },
+    {
+      "text": "lines",
+      "start": 73100,
+      "end": 73380,
+      "confidence": 0.8078613
+    },
+    {
+      "text": "that",
+      "start": 73380,
+      "end": 73540,
+      "confidence": 0.98046875
+    },
+    {
+      "text": "say",
+      "start": 73540,
+      "end": 73820,
+      "confidence": 0.9897461
+    },
+    {
+      "text": "what",
+      "start": 73900,
+      "end": 74299,
+      "confidence": 0.9760742
+    },
+    {
+      "text": "we",
+      "start": 74299,
+      "end": 74620,
+      "confidence": 0.9970703
+    },
+    {
+      "text": "mean",
+      "start": 74620,
+      "end": 74940,
+      "confidence": 0.91015625
+    },
+    {
+      "text": "not",
+      "start": 74940,
+      "end": 75260,
+      "confidence": 0.25585938
+    },
+    {
+      "text": "cryptic",
+      "start": 75260,
+      "end": 75900,
+      "confidence": 0.87390137
+    },
+    {
+      "text": "blocks",
+      "start": 75900,
+      "end": 76420,
+      "confidence": 0.8982747
+    },
+    {
+      "text": "they’re",
+      "start": 76420,
+      "end": 76660,
+      "confidence": 0.8833008
+    },
+    {
+      "text": "crisp",
+      "start": 76660,
+      "end": 76980,
+      "confidence": 0.98307294
+    },
+    {
+      "text": "and",
+      "start": 76980,
+      "end": 77180,
+      "confidence": 0.9711914
+    },
+    {
+      "text": "clean",
+      "start": 77180,
+      "end": 77660,
+      "confidence": 0.99560547
+    },
+    {
+      "text": "from",
+      "start": 77660,
+      "end": 77980,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "boilerplate",
+      "start": 77980,
+      "end": 78580,
+      "confidence": 0.99208987
+    },
+    {
+      "text": "to",
+      "start": 78580,
+      "end": 78740,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "flow",
+      "start": 78740,
+      "end": 79180,
+      "confidence": 0.7230632
+    },
+    {
+      "text": "let",
+      "start": 80460,
+      "end": 80820,
+      "confidence": 0.3684082
+    },
+    {
+      "text": "the",
+      "start": 80820,
+      "end": 80940,
+      "confidence": 0.6982422
+    },
+    {
+      "text": "constructs",
+      "start": 80940,
+      "end": 81380,
+      "confidence": 0.78344727
+    },
+    {
+      "text": "grow",
+      "start": 81380,
+      "end": 81900,
+      "confidence": 0.79085284
+    },
+    {
+      "text": "Intent-driven",
+      "start": 83100,
+      "end": 83860,
+      "confidence": 0.7994792
+    },
+    {
+      "text": "code",
+      "start": 83860,
+      "end": 84380,
+      "confidence": 0.82373047
+    },
+    {
+      "text": "taking",
+      "start": 84380,
+      "end": 84700,
+      "confidence": 0.4284668
+    },
+    {
+      "text": "control",
+      "start": 84700,
+      "end": 85100,
+      "confidence": 0.98828125
+    },
+    {
+      "text": "Cloud",
+      "start": 85420,
+      "end": 85860,
+      "confidence": 0.7279053
+    },
+    {
+      "text": "services",
+      "start": 85860,
+      "end": 86220,
+      "confidence": 0.91308594
+    },
+    {
+      "text": "sculpted",
+      "start": 86380,
+      "end": 87340,
+      "confidence": 0.5715332
+    },
+    {
+      "text": "as",
+      "start": 87340,
+      "end": 87620,
+      "confidence": 0.6303711
+    },
+    {
+      "text": "gold",
+      "start": 87620,
+      "end": 87980,
+      "confidence": 0.92822266
+    },
+    {
+      "text": "in",
+      "start": 89760,
+      "end": 89960,
+      "confidence": 0.81640625
+    },
+    {
+      "text": "the",
+      "start": 89960,
+      "end": 90240,
+      "confidence": 0.7949219
+    },
+    {
+      "text": "haze",
+      "start": 90240,
+      "end": 90800,
+      "confidence": 0.8380534
+    },
+    {
+      "text": "patterns",
+      "start": 90960,
+      "end": 91520,
+      "confidence": 0.75065106
+    },
+    {
+      "text": "trust",
+      "start": 91520,
+      "end": 92040,
+      "confidence": 0.6590169
+    },
+    {
+      "text": "in",
+      "start": 92040,
+      "end": 92240,
+      "confidence": 0.76220703
+    },
+    {
+      "text": "clear",
+      "start": 92240,
+      "end": 92560,
+      "confidence": 0.9892578
+    },
+    {
+      "text": "arrays",
+      "start": 92640,
+      "end": 93280,
+      "confidence": 0.9814453
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 93440,
+      "end": 94120,
+      "confidence": 0.642334
+    },
+    {
+      "text": "rise",
+      "start": 94840,
+      "end": 95520,
+      "confidence": 0.63134766
+    },
+    {
+      "text": "Unlocking",
+      "start": 96240,
+      "end": 96920,
+      "confidence": 0.873291
+    },
+    {
+      "text": "dev",
+      "start": 96920,
+      "end": 97200,
+      "confidence": 0.5205078
+    },
+    {
+      "text": "experience",
+      "start": 97200,
+      "end": 97600,
+      "confidence": 1.0
+    },
+    {
+      "text": "to",
+      "start": 97760,
+      "end": 98040,
+      "confidence": 0.9946289
+    },
+    {
+      "text": "the",
+      "start": 98040,
+      "end": 98200,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "skies",
+      "start": 98200,
+      "end": 98640,
+      "confidence": 0.99731445
+    },
+    {
+      "text": "Goodbye",
+      "start": 98800,
+      "end": 99360,
+      "confidence": 0.8610026
+    },
+    {
+      "text": "HCL",
+      "start": 99360,
+      "end": 99880,
+      "confidence": 0.85335284
+    },
+    {
+      "text": "mess",
+      "start": 99880,
+      "end": 100160,
+      "confidence": 0.36645508
+    },
+    {
+      "text": "we’re",
+      "start": 100320,
+      "end": 100720,
+      "confidence": 0.9711914
+    },
+    {
+      "text": "finally",
+      "start": 100720,
+      "end": 101200,
+      "confidence": 0.99975586
+    },
+    {
+      "text": "free",
+      "start": 101200,
+      "end": 101520,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "with",
+      "start": 101600,
+      "end": 101920,
+      "confidence": 0.9638672
+    },
+    {
+      "text": "terraconstructs",
+      "start": 101920,
+      "end": 102320,
+      "confidence": 0.78930664
+    },
+    {
+      "text": "infrastructure",
+      "start": 102800,
+      "end": 103240,
+      "confidence": 0.91572267
+    },
+    {
+      "text": "syncs",
+      "start": 103240,
+      "end": 103520,
+      "confidence": 0.82666016
+    },
+    {
+      "text": "with",
+      "start": 103520,
+      "end": 103640,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "glee",
+      "start": 103640,
+      "end": 103920,
+      "confidence": 0.96777344
+    },
+    {
+      "text": "Built",
+      "start": 103920,
+      "end": 104240,
+      "confidence": 0.8766276
+    },
+    {
+      "text": "once",
+      "start": 104240,
+      "end": 104400,
+      "confidence": 0.5131836
+    },
+    {
+      "text": "used",
+      "start": 104400,
+      "end": 104679,
+      "confidence": 0.9892578
+    },
+    {
+      "text": "everywhere",
+      "start": 104679,
+      "end": 105280,
+      "confidence": 0.99869794
+    },
+    {
+      "text": "seamless",
+      "start": 105440,
+      "end": 106000,
+      "confidence": 0.9148763
+    },
+    {
+      "text": "and",
+      "start": 106000,
+      "end": 106200,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "bright",
+      "start": 106200,
+      "end": 106480,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "We’ve",
+      "start": 106480,
+      "end": 106760,
+      "confidence": 0.98795575
+    },
+    {
+      "text": "moved",
+      "start": 106760,
+      "end": 106960,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "on",
+      "start": 106960,
+      "end": 107080,
+      "confidence": 0.9916992
+    },
+    {
+      "text": "through",
+      "start": 107080,
+      "end": 107200,
+      "confidence": 0.9951172
+    },
+    {
+      "text": "the",
+      "start": 107200,
+      "end": 107320,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "boilerplate",
+      "start": 107320,
+      "end": 108040,
+      "confidence": 0.8649414
+    },
+    {
+      "text": "to",
+      "start": 108040,
+      "end": 108240,
+      "confidence": 0.8720703
+    },
+    {
+      "text": "infrastructure",
+      "start": 108240,
+      "end": 108880,
+      "confidence": 0.9998047
+    },
+    {
+      "text": "done",
+      "start": 108880,
+      "end": 109200,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "right",
+      "start": 109280,
+      "end": 109680,
+      "confidence": 0.98535156
+    },
+    {
+      "text": "from",
+      "start": 125770,
+      "end": 125930,
+      "confidence": 0.89501953
+    },
+    {
+      "text": "boilerplate",
+      "start": 125930,
+      "end": 126370,
+      "confidence": 0.708374
+    },
+    {
+      "text": "to",
+      "start": 126610,
+      "end": 126810,
+      "confidence": 0.9941406
+    },
+    {
+      "text": "flow",
+      "start": 126810,
+      "end": 127290,
+      "confidence": 0.9868164
+    },
+    {
+      "text": "we",
+      "start": 127690,
+      "end": 127970,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "let",
+      "start": 127970,
+      "end": 128130,
+      "confidence": 0.99560547
+    },
+    {
+      "text": "the",
+      "start": 128130,
+      "end": 128330,
+      "confidence": 0.9941406
+    },
+    {
+      "text": "constructs",
+      "start": 128330,
+      "end": 128970,
+      "confidence": 0.99886066
+    },
+    {
+      "text": "grow",
+      "start": 128970,
+      "end": 129290,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "Intent-driven",
+      "start": 129850,
+      "end": 130330,
+      "confidence": 0.99780273
+    },
+    {
+      "text": "code",
+      "start": 130650,
+      "end": 130970,
+      "confidence": 0.89436847
+    },
+    {
+      "text": "taking",
+      "start": 130970,
+      "end": 131290,
+      "confidence": 0.9448242
+    },
+    {
+      "text": "control",
+      "start": 131290,
+      "end": 131690,
+      "confidence": 0.8803711
+    },
+    {
+      "text": "Cloud",
+      "start": 131690,
+      "end": 132130,
+      "confidence": 0.9716797
+    },
+    {
+      "text": "services",
+      "start": 132130,
+      "end": 132490,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "sculpted",
+      "start": 132570,
+      "end": 133130,
+      "confidence": 0.9202881
+    },
+    {
+      "text": "as",
+      "start": 133130,
+      "end": 133250,
+      "confidence": 0.984375
+    },
+    {
+      "text": "gold",
+      "start": 133250,
+      "end": 133530,
+      "confidence": 0.9946289
+    },
+    {
+      "text": "no",
+      "start": 133930,
+      "end": 134250,
+      "confidence": 0.9951172
+    },
+    {
+      "text": "more",
+      "start": 134250,
+      "end": 134450,
+      "confidence": 0.99658203
+    },
+    {
+      "text": "modules",
+      "start": 134450,
+      "end": 134810,
+      "confidence": 0.851888
+    },
+    {
+      "text": "lost",
+      "start": 134810,
+      "end": 135010,
+      "confidence": 0.9951172
+    },
+    {
+      "text": "in",
+      "start": 135010,
+      "end": 135210,
+      "confidence": 0.99072266
+    },
+    {
+      "text": "the",
+      "start": 135210,
+      "end": 135330,
+      "confidence": 0.99658203
+    },
+    {
+      "text": "haze",
+      "start": 135330,
+      "end": 135930,
+      "confidence": 0.86783856
+    },
+    {
+      "text": "Patterns",
+      "start": 135930,
+      "end": 136450,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "we",
+      "start": 136450,
+      "end": 136650,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "trust",
+      "start": 136650,
+      "end": 136970,
+      "confidence": 0.8979492
+    },
+    {
+      "text": "in",
+      "start": 136970,
+      "end": 137170,
+      "confidence": 0.74560547
+    },
+    {
+      "text": "clear",
+      "start": 137170,
+      "end": 137450,
+      "confidence": 0.9814453
+    },
+    {
+      "text": "arrays",
+      "start": 137530,
+      "end": 138250,
+      "confidence": 0.998291
+    },
+    {
+      "text": "with",
+      "start": 138330,
+      "end": 138610,
+      "confidence": 0.9663086
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 138610,
+      "end": 139050,
+      "confidence": 0.9057617
+    },
+    {
+      "text": "we",
+      "start": 139650,
+      "end": 139850,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "rise",
+      "start": 139850,
+      "end": 140330,
+      "confidence": 0.9902344
+    },
+    {
+      "text": "unlocking",
+      "start": 141190,
+      "end": 141590,
+      "confidence": 0.965625
+    },
+    {
+      "text": "dev",
+      "start": 141590,
+      "end": 141870,
+      "confidence": 0.99365234
+    },
+    {
+      "text": "experience",
+      "start": 141870,
+      "end": 142230,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "to",
+      "start": 142470,
+      "end": 142750,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "the",
+      "start": 142750,
+      "end": 142910,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "skies",
+      "start": 142910,
+      "end": 143350,
+      "confidence": 0.9304199
+    },
+    {
+      "text": "no",
+      "start": 143750,
+      "end": 144030,
+      "confidence": 0.51220703
+    },
+    {
+      "text": "more",
+      "start": 144030,
+      "end": 144190,
+      "confidence": 0.56689453
+    },
+    {
+      "text": "spinning",
+      "start": 144190,
+      "end": 144590,
+      "confidence": 0.85335284
+    },
+    {
+      "text": "wheels",
+      "start": 144590,
+      "end": 145030,
+      "confidence": 0.90478516
+    },
+    {
+      "text": "in",
+      "start": 145030,
+      "end": 145230,
+      "confidence": 0.6582031
+    },
+    {
+      "text": "module",
+      "start": 145230,
+      "end": 145750,
+      "confidence": 0.9423828
+    },
+    {
+      "text": "hell",
+      "start": 145750,
+      "end": 146230,
+      "confidence": 0.6627197
+    },
+    {
+      "text": "Just",
+      "start": 146230,
+      "end": 146550,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "high-level",
+      "start": 146550,
+      "end": 146830,
+      "confidence": 0.89697266
+    },
+    {
+      "text": "constructs",
+      "start": 147150,
+      "end": 147710,
+      "confidence": 0.86360675
+    },
+    {
+      "text": "that",
+      "start": 147710,
+      "end": 147870,
+      "confidence": 0.94384766
+    },
+    {
+      "text": "work",
+      "start": 147870,
+      "end": 148070,
+      "confidence": 0.99560547
+    },
+    {
+      "text": "so",
+      "start": 148070,
+      "end": 148310,
+      "confidence": 0.9868164
+    },
+    {
+      "text": "well",
+      "start": 148310,
+      "end": 148630,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "Defined",
+      "start": 148870,
+      "end": 149510,
+      "confidence": 0.94384766
+    },
+    {
+      "text": "once",
+      "start": 149510,
+      "end": 149870,
+      "confidence": 0.8972168
+    },
+    {
+      "text": "reuse",
+      "start": 149870,
+      "end": 150430,
+      "confidence": 0.71565753
+    },
+    {
+      "text": "across",
+      "start": 150430,
+      "end": 150670,
+      "confidence": 0.98583984
+    },
+    {
+      "text": "the",
+      "start": 150670,
+      "end": 150950,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "land",
+      "start": 150950,
+      "end": 151270,
+      "confidence": 0.99365234
+    },
+    {
+      "text": "Infrastructure",
+      "start": 151350,
+      "end": 152070,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "built",
+      "start": 152070,
+      "end": 152430,
+      "confidence": 0.8951823
+    },
+    {
+      "text": "with",
+      "start": 152430,
+      "end": 152590,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "a",
+      "start": 152590,
+      "end": 152710,
+      "confidence": 0.55566406
+    },
+    {
+      "text": "guiding",
+      "start": 152710,
+      "end": 153190,
+      "confidence": 0.9350586
+    },
+    {
+      "text": "hand",
+      "start": 153190,
+      "end": 153510,
+      "confidence": 0.99853516
+    },
+    {
+      "text": "Lambda",
+      "start": 153910,
+      "end": 154230,
+      "confidence": 0.43237305
+    },
+    {
+      "text": "VPCs",
+      "start": 154430,
+      "end": 154950,
+      "confidence": 0.99121094
+    },
+    {
+      "text": "scaling",
+      "start": 154950,
+      "end": 155470,
+      "confidence": 0.97314453
+    },
+    {
+      "text": "in",
+      "start": 155470,
+      "end": 155630,
+      "confidence": 0.9580078
+    },
+    {
+      "text": "a",
+      "start": 155630,
+      "end": 155750,
+      "confidence": 0.62060547
+    },
+    {
+      "text": "breeze",
+      "start": 155750,
+      "end": 156230,
+      "confidence": 0.9580078
+    },
+    {
+      "text": "Patterns",
+      "start": 156230,
+      "end": 156790,
+      "confidence": 0.9456787
+    },
+    {
+      "text": "so",
+      "start": 156790,
+      "end": 156990,
+      "confidence": 0.9970703
+    },
+    {
+      "text": "clean",
+      "start": 156990,
+      "end": 157230,
+      "confidence": 0.9946289
+    },
+    {
+      "text": "it’s",
+      "start": 157230,
+      "end": 157470,
+      "confidence": 0.9822591
+    },
+    {
+      "text": "like",
+      "start": 157470,
+      "end": 157670,
+      "confidence": 0.9970703
+    },
+    {
+      "text": "art",
+      "start": 157670,
+      "end": 157950,
+      "confidence": 0.97216797
+    },
+    {
+      "text": "with",
+      "start": 157950,
+      "end": 158230,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "ease",
+      "start": 158230,
+      "end": 158630,
+      "confidence": 0.90625
+    },
+    {
+      "text": "CDKTF",
+      "start": 158790,
+      "end": 159950,
+      "confidence": 0.8250488
+    },
+    {
+      "text": "brings",
+      "start": 159950,
+      "end": 160230,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "the",
+      "start": 160230,
+      "end": 160350,
+      "confidence": 0.99560547
+    },
+    {
+      "text": "best",
+      "start": 160350,
+      "end": 160510,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "of",
+      "start": 160510,
+      "end": 160670,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "both",
+      "start": 160670,
+      "end": 160870,
+      "confidence": 0.9995117
+    },
+    {
+      "text": "worlds",
+      "start": 160870,
+      "end": 161310,
+      "confidence": 0.77685547
+    },
+    {
+      "text": "Terraform",
+      "start": 161310,
+      "end": 161870,
+      "confidence": 0.9556885
+    },
+    {
+      "text": "ecosystem",
+      "start": 161870,
+      "end": 162630,
+      "confidence": 0.9920247
+    },
+    {
+      "text": "with",
+      "start": 162630,
+      "end": 162870,
+      "confidence": 0.95654297
+    },
+    {
+      "text": "OOP",
+      "start": 162870,
+      "end": 163150,
+      "confidence": 0.29711914
+    },
+    {
+      "text": "unfurled",
+      "start": 163150,
+      "end": 163830,
+      "confidence": 0.91955566
+    },
+    {
+      "text": "we",
+      "start": 163910,
+      "end": 164190,
+      "confidence": 0.57421875
+    },
+    {
+      "text": "code",
+      "start": 164190,
+      "end": 164510,
+      "confidence": 0.73828125
+    },
+    {
+      "text": "lines",
+      "start": 164510,
+      "end": 164870,
+      "confidence": 0.5838216
+    },
+    {
+      "text": "that",
+      "start": 164870,
+      "end": 165030,
+      "confidence": 0.8671875
+    },
+    {
+      "text": "say",
+      "start": 165030,
+      "end": 165350,
+      "confidence": 0.99316406
+    },
+    {
+      "text": "what",
+      "start": 165430,
+      "end": 165750,
+      "confidence": 0.99658203
+    },
+    {
+      "text": "we",
+      "start": 165750,
+      "end": 166030,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "mean",
+      "start": 166030,
+      "end": 166390,
+      "confidence": 0.4885254
+    },
+    {
+      "text": "not",
+      "start": 166390,
+      "end": 166710,
+      "confidence": 0.6040039
+    },
+    {
+      "text": "cryptic",
+      "start": 166710,
+      "end": 167350,
+      "confidence": 0.68218994
+    },
+    {
+      "text": "blocks",
+      "start": 167350,
+      "end": 167790,
+      "confidence": 0.9929199
+    },
+    {
+      "text": "they’re",
+      "start": 167790,
+      "end": 168190,
+      "confidence": 0.7892253
+    },
+    {
+      "text": "crisp",
+      "start": 168190,
+      "end": 168510,
+      "confidence": 0.9991862
+    },
+    {
+      "text": "and",
+      "start": 168510,
+      "end": 168670,
+      "confidence": 0.9580078
+    },
+    {
+      "text": "clean",
+      "start": 168670,
+      "end": 169030,
+      "confidence": 0.96118164
+    },
+    {
+      "text": "with",
+      "start": 169360,
+      "end": 169480,
+      "confidence": 0.96435547
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 169480,
+      "end": 169840,
+      "confidence": 0.78881836
+    },
+    {
+      "text": "we",
+      "start": 170520,
+      "end": 170720,
+      "confidence": 0.9790039
+    },
+    {
+      "text": "rise",
+      "start": 170720,
+      "end": 171200,
+      "confidence": 0.8864746
+    },
+    {
+      "text": "unlocking",
+      "start": 171840,
+      "end": 172400,
+      "confidence": 0.99970704
+    },
+    {
+      "text": "dev",
+      "start": 172400,
+      "end": 172680,
+      "confidence": 0.48388672
+    },
+    {
+      "text": "experience",
+      "start": 172680,
+      "end": 173040,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "to",
+      "start": 173280,
+      "end": 173560,
+      "confidence": 0.9980469
+    },
+    {
+      "text": "the",
+      "start": 173560,
+      "end": 173720,
+      "confidence": 0.9838867
+    },
+    {
+      "text": "skies",
+      "start": 173720,
+      "end": 174160,
+      "confidence": 0.7939453
+    },
+    {
+      "text": "Goodbye",
+      "start": 175680,
+      "end": 176440,
+      "confidence": 0.64851886
+    },
+    {
+      "text": "HCL",
+      "start": 176440,
+      "end": 176680,
+      "confidence": 0.484375
+    },
+    {
+      "text": "mess",
+      "start": 177160,
+      "end": 177800,
+      "confidence": 0.661499
+    },
+    {
+      "text": "we’re",
+      "start": 177800,
+      "end": 178120,
+      "confidence": 0.7421875
+    },
+    {
+      "text": "finally",
+      "start": 178120,
+      "end": 178720,
+      "confidence": 0.76416016
+    },
+    {
+      "text": "free",
+      "start": 178880,
+      "end": 179280,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "with",
+      "start": 180320,
+      "end": 180600,
+      "confidence": 0.85009766
+    },
+    {
+      "text": "TerraConstructs",
+      "start": 180600,
+      "end": 181040,
+      "confidence": 0.7171631
+    },
+    {
+      "text": "infrastructure",
+      "start": 181840,
+      "end": 182560,
+      "confidence": 0.9964844
+    },
+    {
+      "text": "sings",
+      "start": 182560,
+      "end": 182880,
+      "confidence": 0.7039795
+    },
+    {
+      "text": "with",
+      "start": 182880,
+      "end": 183040,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "glee",
+      "start": 183040,
+      "end": 183520,
+      "confidence": 0.9848633
+    },
+    {
+      "text": "Built",
+      "start": 185440,
+      "end": 185800,
+      "confidence": 0.7973633
+    },
+    {
+      "text": "once",
+      "start": 185800,
+      "end": 186280,
+      "confidence": 0.94140625
+    },
+    {
+      "text": "used",
+      "start": 186280,
+      "end": 186560,
+      "confidence": 0.7871094
+    },
+    {
+      "text": "everywhere",
+      "start": 186560,
+      "end": 187120,
+      "confidence": 0.84277344
+    },
+    {
+      "text": "seamless",
+      "start": 187120,
+      "end": 187760,
+      "confidence": 0.9399414
+    },
+    {
+      "text": "and",
+      "start": 187760,
+      "end": 188080,
+      "confidence": 0.99609375
+    },
+    {
+      "text": "bright",
+      "start": 188080,
+      "end": 188560,
+      "confidence": 0.70654297
+    },
+    {
+      "text": "We’ve",
+      "start": 189840,
+      "end": 190160,
+      "confidence": 0.8417969
+    },
+    {
+      "text": "moved",
+      "start": 190160,
+      "end": 190400,
+      "confidence": 0.99902344
+    },
+    {
+      "text": "on",
+      "start": 190400,
+      "end": 190600,
+      "confidence": 0.6464844
+    },
+    {
+      "text": "through",
+      "start": 190600,
+      "end": 190760,
+      "confidence": 0.8808594
+    },
+    {
+      "text": "the",
+      "start": 190760,
+      "end": 190920,
+      "confidence": 0.9975586
+    },
+    {
+      "text": "boilerplate",
+      "start": 190920,
+      "end": 191280,
+      "confidence": 0.82250977
+    },
+    {
+      "text": "to",
+      "start": 191480,
+      "end": 191720,
+      "confidence": 0.43774414
+    },
+    {
+      "text": "infrastructure",
+      "start": 191720,
+      "end": 192480,
+      "confidence": 0.9981445
+    },
+    {
+      "text": "done",
+      "start": 192480,
+      "end": 192800,
+      "confidence": 0.98828125
+    },
+    {
+      "text": "right",
+      "start": 192800,
+      "end": 193200,
+      "confidence": 0.9770508
+    }
+  ]
+}

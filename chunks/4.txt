@@ -1,0 +1,16 @@
+Applying Terraform configuration...
+module.ops.aws_iam_policy.footguns_denied: Creating...
+module.ops.aws_iam_policy.footguns_denied: Creation complete after 2s [id=arn:aws:iam::123456789012:policy/footguns_denied]
+module.edge.aws_cloudfront_distribution.cdn: Modifying... [id=E28CLOUDMAGIC]
+module.edge.aws_cloudfront_distribution.cdn: Modifications complete after 14s
+module.compute.aws_lambda_function.ingestor: Creating...
+module.compute.aws_lambda_function.ingestor: Still creating... [10s elapsed]
+module.compute.aws_lambda_function.ingestor: Creation complete after 12s [id=ingestor-terra]
+module.storage.aws_s3_bucket.assets: Creating...
+module.storage.aws_s3_bucket.assets: Creation complete after 3s [id=tcons-assets-xyz]
+Outputs:
+  assets_bucket = "s3://tcons-assets-xyz"
+  cdn_domain    = "d3k4r40.example.cloudfront.net"
+
+<bliss>Apply complete! Resources: 3 added, 1 changed, 0 destroyed.</bliss>
+<bliss>Infrastructure state is clean, clear, and cloud-locked.</bliss>

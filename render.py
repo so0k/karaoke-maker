@@ -26,7 +26,26 @@ LINE_SPACING  = 86   # distance between the two lines
 
 # ---------- Load assets ----------
 audio = AudioFileClip("./audio/from_boilerplate_to_flow.mp3")  # original mix
-data  = json.load(open("./audio/from_boilerplate_to_flow_timings.json", "r", encoding="utf-8"))
+TIMINGS_PATH = "./audio/from_boilerplate_to_flow_timings.json"
+data  = json.load(open(TIMINGS_PATH, "r", encoding="utf-8"))
+
+# Quick sanity: report time range for visibility
+def _summarize_timings(d):
+    line_starts = []
+    line_ends = []
+    word_ts = []
+    for b in d.get("blocks", []):
+        for ln in b.get("lines", []):
+            if "start" in ln: line_starts.append(ln["start"])
+            if "end" in ln: line_ends.append(ln["end"])
+            for w in ln.get("words", []):
+                if "t" in w: word_ts.append(w["t"])
+    if word_ts:
+        fw, lw = min(word_ts), max(word_ts)
+        fl, ll = (min(line_starts) if line_starts else fw), (max(line_ends) if line_ends else lw)
+        print(f"Timings summary: first_word={fw:.2f}s, last_word={lw:.2f}s, first_line={fl:.2f}s, last_line={ll:.2f}s")
+
+_summarize_timings(data)
 
 # Optional: you can compute total duration from audio
 duration = audio.duration
@@ -56,9 +75,10 @@ def make_pixel_bg(t, w=W, h=H):
     layer_b = (((xb + yb) // 2) % 2).astype(np.float32)
 
     # mix to RGB (soft palette shifts)
-    r = 40  + 40*layer_a + 35*layer_b + 25*np.sin(0.6*t)
-    g = 30  + 45*layer_a + 30*layer_b + 25*np.sin(0.7*t + 1.0)
-    b = 60  + 30*layer_a + 50*layer_b + 25*np.sin(0.8*t + 2.0)
+    # brighter palette so it reads in output
+    r = 90  + 70*layer_a + 55*layer_b + 35*np.sin(0.6*t)
+    g = 80  + 75*layer_a + 50*layer_b + 35*np.sin(0.7*t + 1.0)
+    b = 110 + 60*layer_a + 70*layer_b + 35*np.sin(0.8*t + 2.0)
 
     img = np.clip(np.dstack([r,g,b]), 0, 255).astype(np.uint8)
 
@@ -66,9 +86,41 @@ def make_pixel_bg(t, w=W, h=H):
     frame = np.repeat(np.repeat(img, px, axis=0), px, axis=1)
     return frame[:h, :w, :]
 
-bg = VideoClip(make_frame=make_pixel_bg, duration=duration).set_fps(FPS)
+# MoviePy v2: use classmethod from_function and with_fps
+bg = (
+    VideoClip()
+    .with_updated_frame_function(make_pixel_bg)
+    .with_duration(duration)
+    .with_fps(FPS)
+)
 
 # ---------- Text helpers ----------
+def safe_text_clip(text, font, font_size, color, stroke_color=None, stroke_width=0, method="label"):
+    try:
+        return TextClip(
+            text=text,
+            font=font,
+            font_size=font_size,
+            color=color,
+            margin=(max(6, stroke_width*2), max(4, stroke_width*2)),
+            stroke_color=stroke_color,
+            stroke_width=stroke_width,
+            method=method,
+        )
+    except Exception:
+        # Fallback to default font if requested font is unavailable
+        return TextClip(
+            text=text,
+            font=None,
+            font_size=font_size,
+            color=color,
+            margin=(max(6, stroke_width*2), max(4, stroke_width*2)),
+            stroke_color=stroke_color,
+            stroke_width=stroke_width,
+            method=method,
+        )
+
+
 def make_line_clip(full_text, pre_highlight_text):
     """
     Render one lyric line by stacking:
@@ -76,21 +128,20 @@ def make_line_clip(full_text, pre_highlight_text):
       - an overlay clipping the highlighted prefix width (accent)
     This avoids reflow while we progressively color text.
     """
-    base = TextClip(
-        full_text, font=FONT, fontsize=70, color=BASE,
+    base = safe_text_clip(
+        text=full_text, font=FONT, font_size=70, color=BASE,
         stroke_color="black", stroke_width=STROKE, method="label"
     )
     if not pre_highlight_text:
         return base
 
     # Render the prefix in highlight color, then paste it over as a width-cropped overlay
-    hi   = TextClip(
-        pre_highlight_text, font=FONT, fontsize=70, color=HI,
+    hi = safe_text_clip(
+        text=pre_highlight_text, font=FONT, font_size=70, color=HI,
         stroke_color="black", stroke_width=STROKE, method="label"
     )
-    # Put both at same position in a same-sized canvas, crop overlay to its own width
-    overlay = hi.on_color(size=base.size, color=None, col_opacity=0)
-    overlay = overlay.crop(x1=0, y1=0, x2=hi.w, y2=hi.h)
+    # Put both on a common canvas at the same top-left position
+    overlay = CompositeVideoClip([hi.with_position((0, 0))], size=base.size)
     return CompositeVideoClip([base, overlay], size=base.size)
 
 def words_upto_now(words, t_now):
@@ -107,7 +158,7 @@ def words_upto_now(words, t_now):
 
 # ---------- Lyric layer (max 2 lines) ----------
 def lyric_frame_factory(data):
-    # Flatten blocks into a list of (block_type, line) with timings
+    # Flatten blocks into a list of (block_type, line) with timings (already normalized seconds)
     lines = []
     for b in data["blocks"]:
         for ln in b["lines"]:
@@ -115,43 +166,36 @@ def lyric_frame_factory(data):
                 "type": b["type"],
                 "start": ln["start"],
                 "end": ln["end"],
-                "words": ln["words"]
+                "words": ln["words"],
             })
 
     # Precompute y positions for up to 2 lines
     y_main = H - MARGIN_BOTTOM
     y_prev = y_main - LINE_SPACING
 
-    def make_frame(t):
+    def build_lyrics_composite(t):
         # find visible lines around t
         visible = [L for L in lines if (L["start"] - 0.25) <= t <= (L["end"] + 0.25)]
         visible = sorted(visible, key=lambda L: L["start"])
-
-        # choose at most two: the current and the next/prev relevant
         if len(visible) > 2:
             visible = visible[-2:]
 
         clips = []
-        # Block title - show the current block type for 1.0s when it changes
+        # Block title - show for the active block
         current_block = None
         for L in lines:
             if L["start"] <= t <= L["end"]:
                 current_block = L["type"]
                 break
-
         if current_block:
-            title = TextClip(
-                current_block.title(), font=TITLE_FONT, fontsize=48,
+            title = safe_text_clip(
+                text=current_block.title(), font=TITLE_FONT, font_size=48,
                 color=TITLE_COLOR, stroke_color="black", stroke_width=2, method="label"
-            ).with_position((60, 60)).with_duration(1/ FPS)
-            # gentle alpha depending on how close to a block boundary
-            # (for simplicity we just show it whenever within a line of that block)
+            ).with_position((60, 60))
             clips.append(title)
 
-        # Render visible lines
+        # Render visible lines (max two)
         if visible:
-            # Bottom row is the "most current" line
-            # If 2 lines: earlier line sits above
             if len(visible) == 1:
                 v = visible[0]
                 full = " ".join([w["w"] for w in v["words"]])
@@ -163,21 +207,39 @@ def lyric_frame_factory(data):
                 full0 = " ".join([w["w"] for w in v0["words"]])
                 pre0  = words_upto_now(v0["words"], t)
                 row0  = make_line_clip(full0, pre0).with_position(("center", y_prev))
-
                 full1 = " ".join([w["w"] for w in v1["words"]])
                 pre1  = words_upto_now(v1["words"], t)
                 row1  = make_line_clip(full1, pre1).with_position(("center", y_main))
-
                 clips += [row0, row1]
 
         if not clips:
-            # nothing to render - transparent frame
+            return None
+        return CompositeVideoClip(clips, size=(W, H))
+
+    def lyrics_image_frame(t):
+        comp = build_lyrics_composite(t)
+        if comp is None:
             return np.zeros((H, W, 3), dtype=np.uint8)
+        return comp.get_frame(t)
 
-        comp = CompositeVideoClip(clips, size=(W, H)).with_duration(1 / FPS)
-        return comp.get_frame(0)
+    def lyrics_mask_frame(t):
+        comp = build_lyrics_composite(t)
+        if comp is None:
+            return np.zeros((H, W), dtype=np.float32)
+        return comp.to_mask().get_frame(t)
 
-    return VideoClip(make_frame=make_frame, duration=duration)
+    # Build an image clip plus its alpha mask, so the lyrics layer is transparent
+    img_clip = (
+        VideoClip()
+        .with_updated_frame_function(lyrics_image_frame)
+        .with_duration(duration)
+    )
+    mask_clip = (
+        VideoClip()
+        .with_updated_frame_function(lyrics_mask_frame)
+        .with_duration(duration)
+    )
+    return img_clip.with_mask(mask_clip)
 
 lyrics_layer = lyric_frame_factory(data)
 

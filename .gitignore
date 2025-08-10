@@ -1,0 +1,12 @@
+__pycache__/
+.claude
+
+_tmp_*
+main
+main.exe
+karaoke-tui
+karaoke-tui.exe
+*_plan.md
+frames/
+record
+record_ttyd

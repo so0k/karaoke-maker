@@ -2,4 +2,6 @@
 ffmpeg = "latest"
 # only works for linux based OS
 # imagemagick = "latest"
+# use brew install ttyd
+# ttyd = "latest"
 python = "latest"
