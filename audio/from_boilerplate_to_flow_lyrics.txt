@@ -1,0 +1,74 @@
+Used to wrestle HCL in endless lines,
+Copy-paste blocks, tangled up in confines.
+Terraform files stacked high in the night,
+Hoping a stray bracket won’t ruin our flight.
+
+But then came the shift, a cleaner design—
+Object-oriented, reusable divine.
+TerraConstructs showed the way,
+Now we build with ease day by day.
+
+From boilerplate to flow,
+We let the constructs grow.
+Intent-driven code, taking control,
+Cloud services sculpted as gold.
+No more modules lost in the haze—
+Patterns we trust, in clear arrays.
+With TerraConstructs we rise,
+Unlocking dev experience to the skies.
+
+No more spinning wheels in module hell,
+Just high-level constructs that work so well.
+Define once, reuse across the land,
+Infrastructure built with a guiding hand.
+
+Lambda, VPCs, scaling in a breeze—
+Patterns so clean, it’s like art with ease.
+CDKTF brings the best of both worlds,
+Terraform ecosystem, with OOP unfurled.
+We code in lines that say what we mean,
+Not cryptic blocks—they’re crisp and clean.
+
+From boilerplate to flow,
+We let the constructs grow.
+Intent-driven code, taking control,
+Cloud services sculpted as gold.
+No more modules lost in the haze—
+Patterns we trust, in clear arrays.
+With TerraConstructs we rise,
+Unlocking dev experience to the skies.
+
+Goodbye HCL mess, we’re finally free—
+With TerraConstructs, infrastructure sings with glee.
+Built once, used everywhere, seamless and bright—
+We’ve moved on through the boilerplate to infrastructure done right.
+
+From boilerplate to flow,
+We let the constructs grow.
+Intent-driven code, taking control,
+Cloud services sculpted as gold.
+No more modules lost in the haze—
+Patterns we trust, in clear arrays.
+With TerraConstructs we rise,
+Unlocking dev experience to the skies.
+
+No more spinning wheels in module hell,
+Just high-level constructs that work so well.
+Define once, reuse across the land,
+Infrastructure built with a guiding hand.
+
+Lambda, VPCs, scaling in a breeze—
+Patterns so clean, it’s like art with ease.
+CDKTF brings the best of both worlds,
+Terraform ecosystem, with OOP unfurled.
+We code in lines that say what we mean,
+Not cryptic blocks—they’re crisp and clean.
+
+With TerraConstructs we rise,
+Unlocking dev experience to the skies.
+
+Goodbye HCL mess, we’re finally free—
+With TerraConstructs, infrastructure sings with glee.
+
+Built once, used everywhere, seamless and bright—
+We’ve moved on through the boilerplate to infrastructure done right.

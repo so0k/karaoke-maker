@@ -1,0 +1,5 @@
+[tools]
+ffmpeg = "latest"
+# only works for linux based OS
+# imagemagick = "latest"
+python = "latest"
